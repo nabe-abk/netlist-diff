@@ -4,7 +4,7 @@
   - The transistor's E/C/B pin can convert to a pin number.
   - There is a function to change the pin number(pin1<>pin2) automatically for R/C/L and other.
 
-    Download from: [netlist-diff.exe](https://github.com/nabe-abk/netlist-diff/raw/main/Release/netlist-diff.exe) or [Release/netlist-diff.exe](./Release/netlist-diff.exe)
+    Download from: [Release/netlist-diff.* files](./Release/)
 
 # Information
 

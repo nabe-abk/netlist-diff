@@ -141,15 +141,15 @@
 			this.label2.AutoSize = true;
 			this.label2.Location = new System.Drawing.Point(8, 72);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(140, 15);
+			this.label2.Size = new System.Drawing.Size(138, 15);
 			this.label2.TabIndex = 10;
-			this.label2.Text = "Auto Change Pin 1<>2";
+			this.label2.Text = "Auto change pin 1<>2";
 			// 
 			// AutoChangePinSetting
 			// 
-			this.AutoChangePinSetting.Location = new System.Drawing.Point(154, 69);
+			this.AutoChangePinSetting.Location = new System.Drawing.Point(152, 69);
 			this.AutoChangePinSetting.Name = "AutoChangePinSetting";
-			this.AutoChangePinSetting.Size = new System.Drawing.Size(136, 23);
+			this.AutoChangePinSetting.Size = new System.Drawing.Size(137, 23);
 			this.AutoChangePinSetting.TabIndex = 5;
 			this.AutoChangePinSetting.Text = "R|L|C|FB|B";
 			// 

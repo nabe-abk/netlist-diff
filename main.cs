@@ -19,7 +19,8 @@ namespace netlist_diff
     public partial class MainForm : Form
     {
         private Hashtable REPLACE_PINS;
-        private string AutoChangePinParts = "(R|L|C)";
+        private bool   EnableAutoChangePin = false;
+        private string AutoChangePinParts  = "(R|L|C)";
 
         private const bool TR_TO92MODE = false;
         private const bool REMOVE_ASTERISK    = true;
@@ -84,11 +85,21 @@ namespace netlist_diff
             }
 
             string parts = AutoChangePinSetting.Text;
-            if (!Regex.IsMatch(parts, @"^\w+(\|\w+)*$")) {
-                addMsg("Auto Change Pin Parts's format error!");
+            if (parts == "")
+            {
+                addMsg("*** Disable auto pin changer ***");
+                EnableAutoChangePin = false;
+            }
+            else if (Regex.IsMatch(parts, @"^\w+(\|\w+)*$"))
+            {
+                EnableAutoChangePin = true;
+                AutoChangePinParts  = "(" + parts + ")";
+            }
+            else
+            {
+                addMsg("Auto change pin parts's format error!");
                 return false;
-			}
-            AutoChangePinParts = "(" + parts + ")";
+            }
 
             return true;
         }
@@ -133,9 +144,9 @@ namespace netlist_diff
             var r_exchangeable = new Regex("^" + AutoChangePinParts + @"\d", RegexOptions.Compiled);
             Hashtable replace  = new Hashtable();
 
-            for(int i=1; i<=OPTIMIZE_LOOP; i++)
+            for(int i=1; EnableAutoChangePin && i <= OPTIMIZE_LOOP; i++)
             {
-                addMsg("*** optimize loop " + i + "/" + OPTIMIZE_LOOP + " ***");
+                addMsg("*** Auto change pin optimize loop " + i + "/" + OPTIMIZE_LOOP + " ***");
 
                 foreach (string pa in p1.Keys)
                 {

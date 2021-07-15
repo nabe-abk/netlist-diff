@@ -22,4 +22,9 @@
     <OutputPath></OutputPath>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Release\netlist-diff.deps.json" />
+    <None Remove="Release\netlist-diff.pdb" />
+  </ItemGroup>
+
 </Project>
