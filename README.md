@@ -6,11 +6,11 @@
 
 ## Download
 
-Download from [Release/netlist-diff.* files](./Release/). You need to **save 3 files in the same folder**.
+Download from [Release/](./Release/). You need to **save 3 files in the same folder**.
 
-  - [netlist-diff.dll](/nabe-abk/netlist-diff/raw/main/Release/netlist-diff.dll)
-  - [netlist-diff.exe](/nabe-abk/netlist-diff/raw/main/Release/netlist-diff.exe)
-  - [netlist-diff.runtimeconfig.json](/nabe-abk/netlist-diff/raw/main/Release/netlist-diff.runtimeconfig.json)
+  - [netlist-diff.dll](https://github.com/nabe-abk/netlist-diff/raw/main/Release/netlist-diff.dll)
+  - [netlist-diff.exe](https://github.com/nabe-abk/netlist-diff/raw/main/Release/netlist-diff.exe)
+  - [netlist-diff.runtimeconfig.json](https://github.com/nabe-abk/netlist-diff/raw/main/Release/netlist-diff.runtimeconfig.json)
 
 # Information
 
