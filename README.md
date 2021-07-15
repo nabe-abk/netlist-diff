@@ -4,7 +4,7 @@
   - Copyright: (C)2021 [nabe@abk](https://twitter.com/nabe_abk)
   - Lisence: GPLv3 or later
 
-  Download [netlist-diff.exe](./bin/Release/netcoreapp3.10netlist-diff.exe/)
+  Download: [netlist-diff.exe](./raw/main/Release/netlist-diff.exe)
 
 # Information
 
