@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>netlist_diff</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+
+	  <AssemblyTitle>netlist-diff</AssemblyTitle>
+	  <AssemblyCopyright>nabe@abk</AssemblyCopyright>
+	  <AssemblyVersion>0.9.0</AssemblyVersion>
+	  <FileVersion>0.9.0</FileVersion>
+	  <Authors>nabe@abk</Authors>
+	  <Company />
+	  <Copyright>nabe@abk</Copyright>
+	  <PackageProjectUrl>https://github.com/nabe-abk/netlist-diff/</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/nabe-abk/netlist-diff/</RepositoryUrl>
+	  <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+</Project>

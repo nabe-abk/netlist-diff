@@ -30,6 +30,8 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+!bin/Release/netcoreapp3.1/netlist-diff.exe
+
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
