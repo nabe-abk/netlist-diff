@@ -4,7 +4,7 @@
   - Copyright: (C)2021 [nabe@abk](https://twitter.com/nabe_abk)
   - Lisence: GPLv3 or later
 
-  Download: [netlist-diff.exe](./raw/main/Release/netlist-diff.exe)
+  Download from: [netlist-diff.exe](https://github.com/nabe-abk/netlist-diff/raw/main/Release/netlist-diff.exe) or [Release/netlist-diff.exe](./Release/netlist-diff.exe)
 
 # Information
 
