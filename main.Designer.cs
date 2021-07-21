@@ -170,7 +170,7 @@
 			this.Controls.Add(this.FileSelectBtn1);
 			this.Controls.Add(this.FileName1);
 			this.Controls.Add(this.FileLabel1);
-			this.MinimumSize = new System.Drawing.Size(580, 420);
+			this.MinimumSize = new System.Drawing.Size(580, 290);
 			this.Name = "MainForm";
 			this.Text = "netlist-diff";
 			this.ResumeLayout(false);

@@ -1,8 +1,8 @@
 # netlist-diff / Netlist Difference Checker
 
   - Support Telesis format.
-  - The transistor's E/C/B pin can convert to a pin number.
-  - There is a function to change the pin number(pin1<>pin2) automatically for R/C/L and other.
+  - Features the transistor's E/C/B pin can convert to a pin number.
+  - Features can automatically change the pin number (pin 1<>pin 2) for R/C/L and others.
 
 ## Download
 
